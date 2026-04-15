@@ -29,7 +29,20 @@ public class ConvertStringsToDates {
         //LocalDateTime object
         LocalDate myDay = LocalDate.parse(myDate, formatterNew);
 
-        System.out.println(myDay);
+        System.out.printf("today is %s", myDay.format(DateTimeFormatter.ofPattern("yyyy")));
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     }
